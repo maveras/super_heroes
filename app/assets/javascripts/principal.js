@@ -1,0 +1,2 @@
+$('#batman').backstretch("http://images-eds.xboxlive.com/image?url=8Oaj9Ryq1G1_p3lLnXlsaZgGzAie6Mnu24_PawYuDYIoH77pJ.X5Z.MqQPibUVTca5Lgguj71uQppc_yoI6aK3oy82.EF7eLSe78_l7mixqvmKL_paxKpj.yTapH27wjnJroUXKcVjiV.DeQvp3y9PEIKh249.fw0Ujjtu.DS5eEfK_Ug25knj5_qEpaJ9BaA5nDrYI2vN9LAySVXlnrujCdD7UX8uB5CrqUxylU9Jk-&format=jpg");
+	$("#superman").backstretch("http://emorywheel.com/wp-content/uploads/2016/03/BatmanVSuperman.jpg");
