@@ -1,10 +1,23 @@
 Rails.application.routes.draw do
+  get 'experiment/page1'
+
+  get 'experiment/page2'
+
+  get 'experiment/page3'
+
   get 'pages/batman'
 
   get 'pages/superman'
 
   get 'pages/batman_vs_superman'
 
+  post 'pages/voto_batman'
+
+  post 'pages/voto_superman'
+
+  get 'pages/voto_batman'
+
+  get 'pages/voto_superman'
 
 
   # The priority is based upon order of creation: first created -> highest priority.

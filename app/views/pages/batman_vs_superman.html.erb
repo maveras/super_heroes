@@ -1,11 +1,23 @@
 <div id="superman" class="mitad">
 <%= link_to "Superman Home's page",pages_superman_path  %>
-	
+	<%= form_tag({:controller => "pages", :action => "voto_superman"}, :method => "post") do %>   
+	   <%= label_tag "email", "Ingresa tu Email" %>
+	   <br>
+	   <%= text_field_tag "email", "", :size => 20, :maxlenght => 5, :placeholder => "Email", :required => "required" %>
+	   <br/>   
+	   <%= submit_tag "Votar Superman" %>
+	<% end %>
 </div>
 
 <div id="batman" class="mitad">
-<%= link_to "Batman Home's page",pages_batman_path  %>
-	
+<%= form_tag({:controller => "pages", :action => "voto_batman"}, :method => "post") do %>   
+   <%= label_tag "email", "Ingresa tu Email" %>
+   <br>
+   <%= text_field_tag "email", "", :size => 20, :maxlenght => 5, :placeholder => "Email", :required => "required" %>
+   <br/>   
+   <%= submit_tag "Votar Batman" %>
+<% end %>
+
 </div>
 
 <script type="text/javascript">
