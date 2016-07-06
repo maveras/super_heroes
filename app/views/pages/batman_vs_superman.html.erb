@@ -1,2 +1,15 @@
-<h1>Pages#batman-vs-superman</h1>
-<p>Find me in app/views/pages/batman-vs-superman.html.erb</p>
+<div id="superman" class="mitad">
+<%= link_to "Superman Home's page",pages_superman_path  %>
+	
+</div>
+
+<div id="batman" class="mitad">
+<%= link_to "Batman Home's page",pages_batman_path  %>
+	
+</div>
+
+<script type="text/javascript">
+  $("#superman").backstretch("<%= image_path 'superman.jpg' %>");
+  $("#batman").backstretch("<%= image_path 'batman.png' %>");
+	
+</script>
